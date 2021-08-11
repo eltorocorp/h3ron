@@ -24,6 +24,6 @@ exclude = [
 [lib]
 
 [build-dependencies]
-bindgen = "^0.59"
+bindgen = { git = "https://github.com/bcmcmill/rust-bindgen/", branch = "upgrade-deps" }
 cmake = "^0.1"
 regex = "^1"
