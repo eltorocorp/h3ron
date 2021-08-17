@@ -24,6 +24,6 @@ exclude = [
 [lib]
 
 [build-dependencies]
-bindgen = { git = "https://github.com/bcmcmill/rust-bindgen/", branch = "upgrade-deps" }
+bindgen = { git = "ssh://github.com/eltorocorp/rust-bindgen.git", branch = "master" }
 cmake = "^0.1"
 regex = "^1"
